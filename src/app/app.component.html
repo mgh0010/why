@@ -2,7 +2,8 @@
 
 <nav>
    <div class="nav-wrapper">
-     <a href="#!" class="brand-logo">Logo</a>
+     <a href="#!" class="brand-logo lg-screen hide-on-med-and-down">why</a>
+     <a href="#!" class="brand-logo hide-on-large-only">why</a>
      <a href="#" data-target="mobile-demo" class="sidenav-trigger button-collapse"><i class="material-icons">menu</i></a>
      <ul class="right hide-on-med-and-down">
        <li><a href="sass.html">Sass</a></li>
@@ -11,44 +12,68 @@
        <li><a href="mobile.html">Mobile</a></li>
      </ul>
      <ul class="sidenav" id="mobile-demo">
-       <li><a href="sass.html">Sass</a></li>
-       <li><a href="badges.html">Components</a></li>
-       <li><a href="collapsible.html">Javascript</a></li>
-       <li><a href="mobile.html">Mobile</a></li>
+       <li><a class="grey-text text-lighten-4" href="sass.html">Sass</a></li>
+       <li><a class="grey-text text-lighten-4" href="badges.html">Components</a></li>
+       <li><a class="grey-text text-lighten-4" href="collapsible.html">Javascript</a></li>
+       <li><a class="grey-text text-lighten-4" href="mobile.html">Mobile</a></li>
      </ul>
    </div>
  </nav>
 
 <div class="carousel carousel-slider center">
  <div class="carousel-fixed-item center">
-   <a class="btn waves-effect white grey-text darken-text-2">button</a>
  </div>
- <div class="carousel-item grey darken-2 white-text" href="#one!">
-   <h2>First Panel</h2>
-   <p class="white-text">This is your first panel</p>
+ <div class="carousel-item vegan-car-item grey-text text-darken-4" href="#one!">
+  <div class="row car-item-text-row">
+    <div class="col s12">
+      <h1 class="left">Vegan</h1>
+    </div>
+    <div class="col s12">
+      <h5 class="left grey-text text-darken-4">Environmentally and morally kind</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s4 push-s1">
+     <a class="btn waves-effect waves-green grey-text 
+               text-lighten-2 car-item-btn left" 
+        href="#vegan">...</a>
+    </div>
+  </div>
  </div>
  <div class="carousel-item amber darken-2 white-text" href="#two!">
    <h2>Second Panel</h2>
    <p class="white-text">This is your second panel</p>
  </div>
- <div class="carousel-item green darken-2 white-text" href="#three!">
-   <h2>Third Panel</h2>
-   <p class="white-text">This is your third panel</p>
- </div>
- <div class="carousel-item blue darken-2 white-text" href="#four!">
+ <div class="carousel-item lectio-car-item blue darken-2 white-text" href="#four!">
    <h2>Fourth Panel</h2>
    <p class="white-text">This is your fourth panel</p>
  </div>
 </div>
 
-<div class="parallax-container">
-  <div class="parallax"><img src="/assets/images/vegan.jpg"></div>
-    <div class="container">
+<div class="container">
+  <div id="vegan" class="section scroll-spy">
     <div class="row">
-      <div class="col s12 m8 push-m2">
-        <h1 class="div-header center grey-text text-lighten-4">
+      <div class="col s12">
+        <h1 class="div-header grey-text text-darken-4">
           Vegan
         </h1>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel cp-first">
+          <p class="flow-text">
+            Write some stuff here..
+          </p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel cp-second">
+          <p class="flow-text">
+            Write some stuff here..
+          </p>
+        </div>
+      </div>
+      <div class="col s12 m4 push-m1">
+        <img class="responsive-img" src="/assets/images/fnf.jpg">
       </div>
     </div>
   </div>
@@ -56,22 +81,23 @@
 
 <div class="no-shoes-div brown darken-2">
   <div class="container">
-    <div class="row">
-      <div class="col s12 m8 push-m2">
-        <h1 class="div-header center grey-text text-lighten-4">
-          No Shoes
-        </h1>
+    <div id="no-shoes" class="section scroll-spy">
+      <div class="row">
+        <div class="col s12">
+          <h1 class="div-header grey-text text-lighten-4">
+            No Shoes
+          </h1>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="parallax-container">
-  <div class="parallax"><img src="/assets/images/lectio-divina.jpg"></div>
-    <div class="container">
+<div class="container">
+  <div id="lectio-divina" class="section scroll-spy">
     <div class="row">
-      <div class="col s12 m8 push-m2">
-        <h1 class="div-header center white-text">
+      <div class="col s12">
+        <h1 class="div-header grey-text text-lighten-4">
           Lectio Divina
         </h1>
       </div>

@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 .carousel .indicators .indicator-item {
-	height: 2em;
-	width: 2em;
+	height: 3em;
+	width: 3em;
+	margin-left: 3em;
+	margin-right: 3em;
+	border-radius: 0;
+	background-color: rgba(0,0,0,.7);
+}
+
+.sidenav {
+	background-color: rgba(5,5,5,.8);
 }

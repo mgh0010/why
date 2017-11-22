@@ -4,43 +4,9 @@
 .lg-screen {
 	padding-left: 1em;
 }
-.carousel {
-	height: 550px;
-}
-
-.nav-wrapper {
-	background-color: #71A543;
-}
-
-.car-item-text-row {
-	padding-left: 1em;
-}
-
-.car-item-btn {
-	margin-left: 8em;
-	width: 8em;
-	background-color: rgba(0,0,0,.7);
-}
 
 .card-panel {
 	background-color: #CAE2A4;
-}
-
-.vegan-car-item {
-	background: url("/assets/images/vegan.jpg");
-	background-size: cover; 
-	background-repeat: no-repeat;
-	background-position: 0px 50%;
-}
-
-.lectio-car-item {
-	background: url("/assets/images/nature.jpg");
-	background-size: cover; 
-	background-repeat: no-repeat;
-}
-
-.carousel-fixed-item {
-	margin-bottom: 1em;
 }
 
 .div-header {

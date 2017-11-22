@@ -1,0 +1,33 @@
+.vegan-car-item {
+	background: url("/assets/images/vegan.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: 0px 65%;
+}
+
+.lectio-divina-car-item {
+	background: url("/assets/images/nature.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: 0px 25%;
+}
+
+.no-shoes-car-item {
+	background: url("/assets/images/no-shoes.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.more-fab {
+	background-color: #6D5636;
+}
+
+.car-item-text-row {
+	padding-left: 1em;
+}
+
+.sub-header {
+	padding-top: 1em;
+}
+
+

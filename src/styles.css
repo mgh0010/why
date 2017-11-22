@@ -13,17 +13,21 @@
 }
 
 .my-main-color-bg {
-	background-color: #6D5636;
+	background-color: #679C42;
 }
 
 .my-main-color {
-	color: #6D5636;
+	color: #679C42;
 }
 
 .my-secondary-color-bg {
-	background-color: #CAE2A4;
+	background-color: #6D5636;
 }
 
 .my-secondary-color {
-	color: #CAE2A4;
+	color: #6D5636;
+}
+
+.card-panel>p {
+	color: white;
 }

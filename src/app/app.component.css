@@ -5,10 +5,6 @@
 	padding-left: 1em;
 }
 
-.card-panel {
-	background-color: #CAE2A4;
-}
-
 .div-header {
 	margin-top: 1em;
 	font-size: 4em;
@@ -25,4 +21,8 @@
 
 #vegan {
 	height: 500px;
+}
+
+.card-panel {
+	background-color: #C6DF9E;
 }

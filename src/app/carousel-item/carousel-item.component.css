@@ -13,13 +13,9 @@
 }
 
 .no-shoes-car-item {
-	background: url("/assets/images/no-shoes.jpg");
+	background: url("/assets/images/no-shoes.png");
 	background-size: cover; 
 	background-repeat: no-repeat;
-}
-
-.more-fab {
-	background-color: #6D5636;
 }
 
 .car-item-text-row {

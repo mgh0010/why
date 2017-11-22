@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
+	fnfUrl = "/assets/images/fnf.jpg";
+	lectioDivinaUrl = "/assets/images/lectio-divina.jpg";
+	natureUrl = "/assets/images/nature.png";
 
   constructor() { }
 

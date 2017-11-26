@@ -26,3 +26,7 @@
 .card-panel {
 	background-color: #C6DF9E;
 }
+
+nav {
+	z-index: 2;
+}
